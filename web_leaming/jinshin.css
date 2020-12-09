@@ -1,0 +1,14 @@
+@media(min-width: 50px){
+    /* #DescriptionAarea{font-size: 6vmin}說明區 */
+    #btn_del{font-size: 4vmin}/* 工號刪除按鈕 */
+    #text_m{font-size: 4vmin;}/* 休假詢問區 */
+    #confirm_btn{font-size:8vmin;}
+    #btnYNClick{font-size: 5vmin;}
+    .btnYN{font-size: 3vmin;}
+    .button01 {width: 13vmin;}/* 狀態選擇按鈕 */
+    .div_h10{height: 8vh;}/* div排版 */
+    .div_h5{height: 5vh;}/* div排版 */
+    .font_all{font-size: 5vmin} /* 通用文字大小 */
+}
+
+/* width: 1024px;margin: auto */

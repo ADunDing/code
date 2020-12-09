@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script lang="javascript">
+        var x = prompt("請輸入年所得","")
+        if(x <= 500000){
+            alert("您的稅金為" + x * 0.05)
+        }else if(x > 500000 && x <= 1130000){
+            alert("您的稅金為" + x * 0.12)
+        }else if(x > 1130000 && x <= 2260000){
+            alert("您的稅金為" + x * 0.2)
+        }else if(x > 2260000 && x <= 4230000){
+            alert("您的稅金為" + x * 0.3)
+        }else{
+            alert("您的稅金為" + x * 0.4)
+        }
+        
+    </script>
+</head>
+<body>
+    
+    
+</body>
+</html>

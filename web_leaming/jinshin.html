@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>晉欣食品自主檢查表</title>
+    <link href="jinshin.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <!-- 說明區 -->
+    <div class="div_h10">
+        <b class="font_all">請先刷卡，後選取手指狀況</b>
+    </div>
+
+    <!-- 工號輸入框及清除按鈕 -->
+    <div class="div_10">
+        <form action="">
+            <input class="font_all" type="text" pattern="/d{9}">
+            <input id="btn_del" type="reset" value="清除工號">
+        </form>
+    </div>
+
+    <!-- 姓名顯示區 -->
+    <div class="div_h10">
+        <b class="font_all">顯示姓名區塊</b>
+    </div>
+
+    <!-- 狀態選擇區 -->
+    <div class="div_h10">
+        <b class="font_all">請選擇手指狀況:</b>
+    </div>
+
+    <!-- 狀態選擇按鈕區 -->
+    <div class="div_h10">
+        <button class="button01 font_all" type="button" onclick='document.getElementById("btnClick").innerHTML = "狀態0"'>0</button>
+        <button class="button01 font_all" type="button" onclick='document.getElementById("btnClick").innerHTML = "狀態1"'>1</button>
+        <button class="button01 font_all" type="button" onclick='document.getElementById("btnClick").innerHTML = "狀態2"'>2</button>
+        <button class="button01 font_all" type="button" onclick='document.getElementById("btnClick").innerHTML = "狀態3"'>3</button>
+        <button class="button01 font_all" type="button" onclick='document.getElementById("btnClick").innerHTML = "狀態4"'>4</button>
+        <button class="button01 font_all" type="button" onclick='document.getElementById("btnClick").innerHTML = "狀態5"'>5</button>
+        <button class="button01 font_all" type="button" onclick='document.getElementById("btnClick").innerHTML = "狀態6"'>6</button>
+    </div>
+
+    <!-- 選中案件顯示區 -->
+    <div class="div_h10">
+        <b class="font_all" id="btnClick"></b>
+    </div>
+
+    <!-- 休假詢問區 -->
+    <div id="text_m">
+        <b>是否需要填寫休假?</b>
+        <button class="btnYN" type="button" onclick='document.getElementById("btnYNClick").innerHTML = "需要"'>需要</button>
+        <button class="btnYN" type="button" onclick='document.getElementById("btnYNClick").innerHTML = "不需要"'>不需要</button>
+    </div>
+
+    <!-- 是否休假顯示區 -->
+    <div class="div_h5">
+        <b id="btnYNClick"></b>
+    </div>
+
+    <!-- 排版用空格 -->
+    <div class="div_h10"></div>
+
+    <!-- 確認按鈕 -->
+    <div class="div_h10">
+        <button id="confirm_btn" type="button">確認</button>
+    </div>
+
+    <!-- 排版用空格 -->
+    <div class="div_h10"></div>
+</body>
+</html>
